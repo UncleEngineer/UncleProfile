@@ -23,6 +23,12 @@ class Profile:
 		     |,4-  ) )-,_. ,\\ (  `'-'
 		    '---''(_/--'  `-'\\_)  Miao Miao 
 		'''
+		self.art2 = '''
+		 _._     _,-'""`-._
+		(,-.`._,'(       |\\`-/|
+		    `-.-' \\ )-`( , o o)
+		          `-    \\`_`"'-
+		'''
 
 	def show_email(self):
 		if self.company != '':
@@ -32,6 +38,9 @@ class Profile:
 
 	def show_myart(self):
 		print(self.art)
+
+	def show_cat(self):
+		print(self.art2)
 
 	def show_hobby(self):
 		if len(self.hobby) !=0:
@@ -51,6 +60,7 @@ if __name__ == '__main__':
 	my.show_email()
 	my.show_myart()
 	my.show_hobby()
+	my.show_cat()
 	# help(my)
 
 
