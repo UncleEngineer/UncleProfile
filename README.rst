@@ -29,6 +29,8 @@ PyPi: https://pypi.org/project/uncleprofile/
    my.show_email()
    my.show_myart()
    my.show_hobby()
+   my.show_cat()
 
 พัฒนาโดย: ลุงวิศวกร สอนคำนวณ FB: https://www.facebook.com/UncleEngineer
+
 YouTube: https://www.youtube.com/UncleEngineer
