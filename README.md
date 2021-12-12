@@ -17,6 +17,8 @@ pip install uncleprofile
 - เปิด IDLE ขึ้นมาแล้วพิมพ์...
 
 ```python
+from uncleprofile import Profile
+
 my = Profile('Loong')
 my.company = 'uncle-engineer'
 my.hobby = ['Youtuber','Reading','Sleeping']

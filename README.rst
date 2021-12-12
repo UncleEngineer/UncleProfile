@@ -22,6 +22,7 @@ PyPi: https://pypi.org/project/uncleprofile/
 
 .. code:: python
 
+   from uncleprofile import Profile
    my = Profile('Loong')
    my.company = 'uncle-engineer'
    my.hobby = ['Youtuber','Reading','Sleeping']
